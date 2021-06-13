@@ -2,7 +2,7 @@
 #include<math.h>  
 int main()  
 {  
-    float x, y, z, det, root1, root2, real, img;  
+    float x, y, z, det, root1, root2;  
     printf("\n Enter the value of coefficient x, y and z: \n ");  
     scanf("%f %f %f", &x, &y, &z);  
     det = y * y - 4 * x * z;      
