@@ -2,7 +2,7 @@
 int main()  
      {  
       int unit,cid,charge;
-      char name;
+      char name[20];
       printf("enter the name  : ");
       gets(name);
       printf("\nenter consumer id  : ");
